@@ -1,0 +1,16 @@
+<resources>
+    <string name="app_name">Quiz App</string>
+    <string name="javanetworkinterface">Java network interface</string>
+    <string name="javanativeinterface">Java native interface</string>
+    <string name="httpentity">HTTP entity</string>
+    <string name="httpresponse">HTTP response</string>
+    <string name="ans">Ans</string>
+    <string name="question1">(A)Which of the following is/or the subclasses in android?</string>
+    <string name="question2">(B)How many threads are there in asysctask in android?</string>
+    <string name="question3">(C)What is JNI in android?</string>
+    <string name="question4">(D)What does httpclient.execute() returns in android?</string>
+    <string name="question5">(E)What is the JASON execution in android?</string>
+    <string name="question6">(F)What is transient data in android?</string>
+    <string name="submit">Submit</string>
+    <string name="reset">Reset</string>
+</resources>

@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.rabbihasan.birthdaycard.MainActivity">
+
+    <!--<TextView
+        android:text="Happy Birthday,Rabbi."
+        android:textColor="#E91E63"
+        android:background="#E3F2FD"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:textAppearanceLarge"
+        android:textAllCaps="true"
+        android:textStyle="italic"
+
+        />
+    <ImageView
+        android:src="@drawable/cake"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:scaleType="centerCrop"/>-->
+
+
+    <ImageView
+        android:src="@drawable/androidparty"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:scaleType="centerCrop"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Happy Birthday,Rabbi!"
+        android:padding="26dp"
+        android:textSize="36sp"
+        android:textColor="#FFFFFF"
+        android:fontFamily="sans-serif-light"
+        />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="From,Riaz!"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentRight="true"
+        android:padding="26dp"
+        android:textSize="36sp"
+        android:textColor="#FFFFFF"
+        android:fontFamily="sans-serif-light"
+        />
+
+
+</RelativeLayout>

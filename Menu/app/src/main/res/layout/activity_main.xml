@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:id="@+id/menu_item_1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Mango sorbet"
+        android:textAppearance="?android:textAppearanceMedium" />
+
+    <TextView
+        android:id="@+id/menu_item_2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+        android:text="Blueberry pie"
+        android:textAppearance="?android:textAppearanceMedium"
+        android:textSize="18sp" />
+
+    <TextView
+        android:id="@+id/menu_item_3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+        android:text="Chocolate lava cake"
+        android:textAppearance="?android:textAppearanceMedium"
+        android:textSize="18sp" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+        android:onClick="printToLogs"
+        android:text="Print menu to logs" />
+</LinearLayout>

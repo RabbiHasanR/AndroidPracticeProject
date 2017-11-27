@@ -1,0 +1,135 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.rabbihasan.surprisecard.MainActivity">
+
+<ImageView
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:src="@drawable/blue1"
+    android:scaleType="centerCrop"/>
+    <ImageView
+        android:id="@+id/profile"
+        android:layout_width="150dp"
+        android:layout_height="150dp"
+        android:src="@drawable/rabbi"
+        android:paddingRight="30dp"/>
+    <TextView
+        android:id="@+id/name"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Rabbi Hasan"
+        android:layout_toRightOf="@id/profile"
+        android:textSize="26sp"
+        android:layout_marginTop="20dp"
+        android:textColor="#ffffff"/>
+    <TextView
+        android:id="@+id/profession"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Android Developer"
+        android:textSize="26sp"
+        android:layout_toRightOf="@id/profile"
+        android:layout_below="@id/name"
+        android:textColor="#ffffff"/>
+    <TextView
+        android:id="@+id/intro"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Rabbi Develops"
+        android:layout_below="@id/profile"
+        android:layout_marginTop="50dp"
+        android:layout_marginLeft="20dp"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        android:textColor="#ffffff"
+        />
+    <ImageView
+        android:id="@+id/android"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:src="@drawable/androidlogo"
+        android:layout_toRightOf="@id/intro"
+        android:layout_marginRight="150dp"
+        android:layout_marginTop="145dp"
+        />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="193dp"
+        android:layout_marginLeft="250dp"
+        android:text="using:"
+        android:textSize="20sp"
+        android:textColor="@android:color/white"
+        android:textStyle="bold"
+
+        />
+    <TextView
+        android:id="@+id/skill"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="* Android Studio"
+        android:layout_below="@id/intro"
+        android:layout_marginTop="50dp"
+        android:layout_marginLeft="20dp"
+        android:textSize="26sp"
+        android:textColor="#ffffff"
+        android:fontFamily="sans-serif-condensed"/>
+    <TextView
+        android:id="@+id/skill2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="* XML"
+        android:layout_below="@id/skill"
+        android:layout_marginTop="10dp"
+        android:layout_marginLeft="20dp"
+        android:textSize="26sp"
+        android:textColor="#ffffff"
+        android:fontFamily="sans-serif-condensed"/>
+    <TextView
+        android:id="@+id/learnig"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Learnig Resource(LR)"
+        android:layout_below="@id/skill"
+        android:layout_marginTop="50dp"
+        android:layout_marginLeft="120dp"
+        android:textSize="26sp"
+        android:textColor="#ffffff"/>
+    <TextView
+        android:id="@+id/resource"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="* UDacity.com"
+        android:layout_below="@id/learnig"
+        android:layout_marginTop="10dp"
+        android:layout_marginLeft="20dp"
+        android:textSize="26sp"
+        android:textColor="#ffffff"/>
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="70dp"
+        android:scaleType="centerCrop"
+        android:layout_alignParentBottom="true"
+        android:src="@drawable/green"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Building Hign Quality Android Apps"
+        android:textSize="20sp"
+        android:layout_below="@id/resource"
+        android:layout_marginTop="20dp"
+        android:layout_marginLeft="120dp"
+        android:textColor="@android:color/holo_red_light"/>
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/star"
+        android:layout_below="@id/resource"
+        android:paddingTop="10dp"/>
+
+
+</RelativeLayout>
